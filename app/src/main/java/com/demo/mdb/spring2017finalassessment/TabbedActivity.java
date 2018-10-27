@@ -147,7 +147,7 @@ public class TabbedActivity extends AppCompatActivity {
             //Set adapter
             //use FirebaseAuth.getInstance().getCurrentUser().getUid() to find the UID which gets only this user data
             //recyclerView.setAdapter(linear layout manager)
-            //initialize ScoresAdapter with empty list of game objects
+            //initialize ScoresAdapter with empty list of game objects new ArrayList<Game>()
             //Use FirebaseDatabase.getInstance() and then use the uid and then for loop through games to populate adapter
 
             return view;
