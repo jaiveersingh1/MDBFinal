@@ -141,7 +141,9 @@ public class TabbedActivity extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
             View view = inflater.inflate(R.layout.fragment_scores, container, false);
-
+            RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.scoresRecyclerView);
+            LinearLayoutManager linearLayoutManager = new LinearLayoutManager();
+            recyclerView.setAdapter(new LinearLayoutManager());
 
             return view;
         }
