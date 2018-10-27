@@ -142,8 +142,12 @@ public class TabbedActivity extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
             View view = inflater.inflate(R.layout.fragment_scores, container, false);
             RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.scoresRecyclerView);
-            LinearLayoutManager linearLayoutManager = new LinearLayoutManager();
-            recyclerView.setAdapter(new LinearLayoutManager());
+//            LinearLayoutManager linearLayoutManager = new LinearLayoutManager();
+            //Create linear laoyut manager
+            //Set adapter
+            //use FirebaseAuth.getInstance().getCurrentUser().getUid() to find the UID which gets only this user data
+            //recyclerView.setAdapter(linear layout manager)
+            //initialize ScoresAdapter with empty list of game objects
 
             return view;
         }
