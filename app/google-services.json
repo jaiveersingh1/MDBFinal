@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "129356393208",
+    "firebase_url": "https://mdbfinal-e5bff.firebaseio.com",
+    "project_id": "mdbfinal-e5bff",
+    "storage_bucket": "mdbfinal-e5bff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129356393208:android:3c20e3d15195baf8",
+        "android_client_info": {
+          "package_name": "com.demo.mdb.spring2017finalassessment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129356393208-vp2uuvgm4221r40je817gpcgcl4c63jk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6cSMgBxahAspmk8fy3KMjQgJnlgKx1P8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
